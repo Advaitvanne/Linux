@@ -24,7 +24,7 @@ echo "Enter second number:" read num2
 if [ $num2 -eq 0 ]; then
 echo "Error: Division by zero!" else
 div=$((num1 / num2)) echo "Quotient: $div"
-OUTPUT
+
  
 #5.	Modulus
 INPUT
@@ -32,7 +32,7 @@ INPUT
 echo "Enter first number:" read num1
  
 echo "Enter second number:" read num2
-mod=$((num1 % num2)) echo "Remainder: $mod" OUTPUT
+mod=$((num1 % num2)) echo "Remainder: $mod" 
  
 
 
@@ -159,13 +159,13 @@ fahrenheit=$(( (celsius * 9/5) + 32 )) echo "$celsius°C = $fahrenheit°F" OUTPU
 INPUT
 #!/bin/bash
 echo "Enter temperature in Fahrenheit:" read fahrenheit
-celsius=$(( (fahrenheit - 32) * 5/9 )) echo "$fahrenheit°F = $celsius°C" OUTPUT
+celsius=$(( (fahrenheit - 32) * 5/9 )) echo "$fahrenheit°F = $celsius°C" 
  
 #18.	Display Current Date and Time
 INPUT
 #!/bin/bash
 echo "Current Date and Time: $(date)"
-OUTPUT
+
  
  
 
